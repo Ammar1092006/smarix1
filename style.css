@@ -1,0 +1,362 @@
+.tape{
+    width: 100%;
+    display: flex;
+    background-color: #03001b;
+    color: white;
+    position: fixed;
+    bottom: 709px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 8px #03001b;
+    z-index: 10000000000000;
+
+}
+.right{
+   margin-top: 30px;
+   margin-left: 500px;
+   display: flex;
+
+  
+   
+}
+.first{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px auto;
+    cursor: pointer;
+     padding-left: 40px;
+     list-style: none;
+     transform: scale(1);
+   transition: scale 1s;
+     
+}
+.first:hover{
+    transform: scale(1.2);
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 5px cyan;
+}
+.smarix{
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: new;
+}
+
+.bacground{
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 81px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.numbers1{
+    display: flex;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 280px;
+}
+.p{
+   margin-left: 80px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.discover{
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.discover:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px cyan;
+
+}
+
+.one{
+ font-family: cutted ;
+ list-style: none;
+ font-size: 80px;
+ margin-left: 50px;
+ cursor: pointer;
+ transition: transform 1s ;
+}
+.one:hover{
+    transform: scale(1.2);
+    font-size: 100px;
+   
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 5px cyan;
+}
+.right1{
+    display: flex;
+    background-color: #eeeeee;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   flex-wrap: wrap;
+   flex-direction: row;
+   text-align: center;
+
+}
+.coloumb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+.bunch{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 10px 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 500;
+   flex-wrap: wrap;
+   position: relative;
+   bottom: 30px;
+   text-align: center;
+   font-size: 22px;
+   z-index: 5;
+}
+.left{
+      margin-left: 400px;
+}
+
+.designimg{
+    width: 100px;
+}
+.Service{
+    width: 100%;
+    height: 400px;
+    background-image: url("img/background1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+   
+    
+}
+.design{
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    border-left: 2px solid rgb(214, 212, 212);
+    border-right:   2px solid rgb(214, 212, 212)  ;
+
+}
+.programming{
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 100;
+    
+}
+
+
+.programming::before{
+    content: "";
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    bottom: -100%; left: 0px;
+    transition: bottom 0.5s;
+    z-index: 5;
+}
+
+.programming:hover::before{
+    bottom: 0%;
+    z-index: 5;
+    
+
+   
+
+}
+.programming:hover{
+    opacity: 1;
+    color: white;
+    
+}
+
+
+.margin{
+    margin-top: 125px;
+    
+}   
+
+.design::before{
+    content: "";
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    bottom: -100%; left: 0px;
+    transition: bottom 0.5s;
+    z-index: 5;
+}
+
+.design:hover::before{
+    bottom: 0%;
+    
+
+   
+
+}
+.design:hover{
+    opacity: 1;
+    color: white;
+    
+}
+.w{
+    z-index: 100;
+}
+.rateimg{
+    width: 150px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rateimg2{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rate{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: new;
+    align-items: center;
+
+}
+.star{
+    width: 100px;
+    position: relative;
+    bottom: 175px;
+    left: 350px;
+}
+.right2{
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  box-shadow 1s ;
+}
+.right2:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.418);
+}
+.a1{
+    position: relative;
+    left: 180px;
+    bottom: 140px;
+ 
+}
+.left2{
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 200px;
+    margin-left: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  box-shadow 1s ;
+
+    
+    
+}
+.left2:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.418);
+}
+.a2{
+    position: relative;
+    left: 180px;
+    bottom: 140px;
+    color: #444444;
+}
+.end{
+  background-color: #eeeeee ;  
+  display: flex;
+   flex-wrap: wrap;
+   font-family: new;
+  
+  
+
+}
+.social{
+    width: 100px;
+    border-radius: 500px;
+}
+.right3{
+     margin-left: 200px;
+    margin-top: 50px;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.left3{
+    margin-left: 540px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    src: url(cutted.ttf);
+    font-family: cutted;
+}
+@font-face{
+    src: url(new.otf);
+    font-family: new;
+}
